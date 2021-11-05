@@ -13,12 +13,13 @@ while True:
 
     #Choices of the application
     if choice == "1":
-        home_device.get_ip()
+        home_device.get_ip()    #User IP address info
     elif choice == "2":
-        home_device.get_geological_info()
+        home_device.get_geological_info()   #User IP address location
     elif choice == "3":
-        home_device.get_isp_info()
+        home_device.get_isp_info()      #User ISP and ASN
     elif choice == "4":
+        #Exit the application
         print("Thank You for using the Application!")
         break
     else:
