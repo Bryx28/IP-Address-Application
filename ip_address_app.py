@@ -1,6 +1,7 @@
 from ip_add_json import Own_IP_Address
 
 while True:
+    #Main Menu of the Application
     print(">>>>>>>>>>>>>> IP Address Application <<<<<<<<<<<<<<")
     home_device = Own_IP_Address()
     print("1 - IP Address Information")
@@ -9,6 +10,8 @@ while True:
     print("4 - Quit")
     choice = input("Enter your option: ")
     print("----------------------------------------------------")
+
+    #Choices of the application
     if choice == "1":
         home_device.get_ip()
     elif choice == "2":
