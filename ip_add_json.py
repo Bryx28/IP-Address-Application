@@ -52,8 +52,3 @@ class Own_IP_Address:
         print(f"Internet Service Provider: {self.ip_isp}")
         print(f"Autonomous System Number: {self.ip_asn}")
         print("*----------------------------------------------------*")
-
-home_device = Own_IP_Address()
-home_device.get_ip()
-home_device.get_geological_info()
-home_device.get_isp_info()
