@@ -6,4 +6,4 @@ COPY  ipapp.py  /home/myapp/
 COPY  ip_add_json.py  /home/myapp/
 COPY  ip_add_json2.py  /home/myapp/
 EXPOSE 8080
-CMD python /home/myapp/ipapp.py
+CMD python3 /home/myapp/ipapp.py
